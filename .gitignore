@@ -1,0 +1,64 @@
+# ==========================================
+# Lean 4 / Lake Build System
+# ==========================================
+.lake/
+lake-packages/
+lake-manifest.json
+# If you want to lock package versions exactly, you can comment out the manifest:
+# !lake-manifest.json
+
+# ==========================================
+# C++ / Compiled Binaries & Build Artifacts
+# ==========================================
+# Build directories
+build/
+bin/
+obj/
+
+# Compiled outputs
+*.out
+*.exe
+*.o
+*.obj
+*.a
+*.lib
+*.so
+*.dll
+
+# IDE and Tooling Specifics
+.vscode/
+.idea/
+*.suo
+*.user
+
+# ==========================================
+# LaTeX / Document Compilation Artifacts
+# ==========================================
+# Core auxiliary files
+*.aux
+*.log
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+
+# Additional document types/caches
+*.out
+*.glo
+*.idx
+*.ilg
+*.ind
+*.pdfsync
+
+# Optional: Ignore the final PDF if you only want to track source files
+# *.pdf
+
+# ==========================================
+# System & Backup Files
+# ==========================================
+.DS_Store
+Thumbs.db
+*.bak
+*~
